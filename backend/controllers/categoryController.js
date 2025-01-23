@@ -39,7 +39,7 @@ exports.updateCategory = async (req, res) => {
     res.status(500).json({ message: 'Failed to update category', error: error.message });
   }
 };
-
+//Delete Category Function 
 exports.deleteCategory = async (req, res) => {
   try {
     const { id } = req.params;
